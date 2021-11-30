@@ -22,3 +22,26 @@ textarea {
     width: 80%;
     padding: 10px;
 }
+
+#eltunes {
+    display: none;
+}
+
+table {
+    
+        margin-left: auto;
+        margin-right: auto;
+      
+}
+
+.tbl {
+    
+    position: relative;
+}
+
+.del {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+

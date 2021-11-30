@@ -11,20 +11,34 @@
     <div class="box">
       <div style="box-sizing: border-box;" class="bevitel">Bevitel:
       </div>
-      <textarea name="bevitel" id="in" type="text"  rows="3" >kik-cook --> cook==> cooker/=>stove - ez   (ei)</textarea>
+     
+      <textarea name="bevitel" id="in" type="text"  rows="3" >produce → product -> production
+termel ==> termék --> termelés
+        
+advise → advisable - advice
+tanácsolni - tanácsos - tanács</textarea>
 
      
       <div></div>
 
-      <button type="submit"   style="margin-top: 20px;margin-bottom: 20px;" id="kiirat">ÁTALAKÍT</button>
+      <button type="submit"   style="margin-top: 20px; margin-bottom: 20px;" id="kiirat">ÁTALAKÍT</button>
+      
+      <button type="submit"   style="background-color: red; margin-top: 20px; margin-bottom: 20px; margin-right: 20px; float: right; " id="torol">Delete ALL</button>
+
+      <button type="submit"   style="margin-top: 20px; margin-bottom: 20px; margin-right: 20px; float: right; " id="inputTorol">Delete INPUT</button>
     </div>
 
-    <div class="box">
+    <div class="box" id="eltunes">
       <div style="box-sizing: border-box;" class="bevitel">Átalakítva:
       </div>
+    
       <textarea style="margin-bottom: 20px;"  id="out" type="text"  rows="3" ></textarea>
     </div>
-    
+
+    <div id="lista" style="margin-bottom: 10px;">
+      
+    </div>
+    <button type="submit"   style="margin-top: 20px; margin-bottom: 20px;" id="copy"  onclick="selectElementContents( document.getElementById('lista') );">Copy</button>
     <script></script>
     <script src="app.js"></script>
   </body>
